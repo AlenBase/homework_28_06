@@ -1,5 +1,5 @@
 def zip(*iterable,strict=False):
-    res = 0
+    res = []
     minlen = min(len(item) for item in iterable)
     for i in range(minlen):
         items = tuple(item[i] for item in iterable)
