@@ -1,5 +1,5 @@
 def filter(function,iterable):
-    res = 0
+    res = []
     if function == None:
         for i in iterable:
             if bool(i) == True:
